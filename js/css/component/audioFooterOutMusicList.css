@@ -1,0 +1,63 @@
+.audioFooterOutMusicList{
+    position: fixed;
+    background-color:#fbfbfb;
+    bottom:0;
+    width:100%;
+    height:15rem;
+    z-index: 9;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    transform: translate3d(0,15rem,0);
+}
+.audioFooterOutMusicList .imp_text{
+    font-size: 0.65rem;
+    font-weight: bold;
+    opacity: 0.88;
+    text-align: center;
+}
+.audioFooterOutMusicList .text{
+    color: #999999;
+    font-size: 0.55rem;
+}
+.audioFooterOutMusicList .listTitle{
+    display: flex;
+    height: 1.8rem;
+    align-items: center;
+    padding:0.15rem 0.4rem;
+    color: #313234;
+    border-bottom: 1px solid #e7e9e9;
+}
+.audioFooterOutMusicList .single{
+    align-items: center;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #e7e9e9;
+}
+.audioFooterOutMusicList .cancle{
+    width: 0.5rem;
+    padding-right: 0.5rem;
+    opacity: 0.6;
+}
+.audioFooterOutMusicList .listCon{
+    padding:0 0 0.3rem 0.4rem;
+}
+.audioFooterOutMusicList .ulCon{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+}
+.audioFooterOutMusicList .scroller{
+    position: absolute;
+    width: 100%;
+}
+.audioFooterOutMusicList .sound{
+    width: 0.9rem;
+    margin-right: 0.2rem;
+}
+.audioFooterOutMusicList .color{
+    color: #cd3d3d;
+     font-weight: bolder;
+}
+
+

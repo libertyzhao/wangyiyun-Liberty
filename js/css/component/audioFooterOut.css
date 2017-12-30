@@ -1,0 +1,67 @@
+.AudioFooterOut{
+    position: fixed;
+    background-color:white;
+    opacity:0.95;
+    bottom:0;
+    box-sizing:border-box;
+    width:100%;
+    padding:0.15rem 0.4rem;
+    height:2.15rem;
+}
+.AudioFooterOut .main{
+    position:relative;
+    display:flex;
+}
+.AudioFooterOut .imgCon{
+    width:1.8rem;
+    height:1.8rem;
+    background: url("../../img/head.png") no-repeat;
+    background-size: 100%;
+}
+.AudioFooterOut .img{
+    width:100%;
+    height:100%;
+}
+.AudioFooterOut .text{
+    display:inline-block;
+    position:relative;
+    top:0;
+    bottom:0;
+    margin:auto 0.28rem;
+    display:inline-block;
+    font-size:0;
+}
+.AudioFooterOut .textMusicName{
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #232426;
+    width:7.5rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:inline-block;
+}
+.AudioFooterOut .textSinger{
+    font-size:0.55rem;
+    margin-top:4px;
+    color:#858583;
+    display:inline-block;
+}
+.AudioFooterOut .progress{
+    width:100%;
+    position:absolute;
+    left: 0;
+    bottom:0;
+    border-top:2px solid #cd3d3d;
+    transform: translate(-100%,0);
+}
+.AudioFooterOut .iconContainner{
+    position:absolute;
+    right:0;
+    display:flex;
+    align-items:center;
+}
+.AudioFooterOut .liImg{
+    /*display: inline-block;*/
+    height:2rem;
+}

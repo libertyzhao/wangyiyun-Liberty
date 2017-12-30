@@ -1,0 +1,46 @@
+.songChoose{
+    position: fixed;
+    background-color:#fbfbfb;
+    bottom:0;
+    width:100%;
+    padding-bottom: 0.5rem;
+    /*height: 12.5rem;*/
+    z-index: 10;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    transform: translate3d(0,15rem,0);
+}
+.songChoose .text{
+    color: #999999;
+    font-size: 0.55rem;
+}
+.songChoose .listTitle{
+    display: flex;
+    height: 1.8rem;
+    align-items: center;
+    padding: 0.2rem 0.4rem 0;
+    color: #313234;
+    /*border-bottom: 1px solid #e7e9e9;*/
+}
+.songChoose .listCon{
+    padding-left:0.6rem;
+}
+.songChoose .single{
+    align-items: center;
+}
+.songChoose .borderBottom{
+    border-bottom: 1px solid #e7e9e9;
+}
+.songChoose .iconImg{
+    width: 1.2rem;
+    margin-right: 0.6rem;
+}
+.songChoose .imp_text{
+    font-size: 0.65rem;
+    /*font-weight: bold;*/
+    padding: 0.6rem 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

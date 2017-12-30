@@ -1,0 +1,23 @@
+.firstPage{
+    border-top: 1px solid transparent;
+}
+.firstPage .navBottom{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    background-color: #fcfefd;
+    color: #676968;
+    text-align: center;
+    padding-top: 0.325rem;
+    padding-bottom: 0.325rem;
+    font-size: 0.6rem;
+    font-weight: bold;
+
+}
+.firstPage .navBar{
+    margin-top: 2.3rem;
+}
+.firstPage .active{
+    color: #cd3d3d;
+    border-bottom: 2px solid #cd3d3d;
+}

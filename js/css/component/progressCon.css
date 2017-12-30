@@ -1,0 +1,24 @@
+.progress{
+    display: flex;
+}
+.time{
+    font-size: 0.6rem;
+    color: rgb(242, 248, 249);
+    line-height: 1rem;
+}
+.start{
+    /*margin-left:-0.5rem ;*/
+    min-width: 1.7rem;
+    max-width: 1.7rem;
+    margin-right:0.5rem ;
+}
+.end{
+    min-width: 1.7rem;
+    max-width: 1.7rem;
+    margin-left:0.5rem ;
+}
+.progressCon{
+    width: 10.4rem;
+    display: inline-block;
+    position: relative;
+}

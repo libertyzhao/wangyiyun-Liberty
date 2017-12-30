@@ -1,0 +1,55 @@
+.MusicPanle{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(200%);
+    transition: 0.8s;
+    overflow: hidden;
+}
+.MusicPanle .musicBg{
+    position: fixed;
+    /*padding: 2.5rem 2.5rem;*/
+    /*top: -2.5rem;*/
+    /*left: -2.5rem;*/
+    /*height: 150%;*/
+    /*width: 150%;*/
+    top: -14rem;
+    left: -7rem;
+    height: 200%;
+    width: 200%;
+    /*background-size: cover;*/
+    -webkit-filter: blur(3rem);
+    -moz-filter: blur(3rem);
+    filter: blur(3rem);
+
+    /*z-index: -1;*/
+}
+.MusicPanle .musicContain{
+    padding:0.6rem 0;
+}
+.MusicPanle .musicBgCon{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url("../../img/music_bg.jpg") no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+.MusicPanle .musicImg{
+    position: fixed;
+    top: -14rem;
+    left: -7rem;
+    height: 200%;
+    width: 200%;
+    -webkit-filter: blur(3rem);
+    -moz-filter: blur(3rem);
+    filter: blur(3rem);
+}
+.MusicPanle .zindex1{
+    z-index: 1;
+}
+.MusicPanle .zindex2{
+    z-index: 2;
+}

@@ -1,0 +1,63 @@
+.songSheet .title{
+    background-color: #e8e8ea;
+    height: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+.songSheet .titleText{
+    font-size: 0.4rem;
+    color:#9b9c9e;
+    /*font-weight: bold;*/
+    letter-spacing: 1px;
+}
+.songSheet .titleChooseImg{
+    height: 0.7rem;
+    padding-right: 0.4rem;
+}
+.songSheet .rotate90{
+    transform: rotate(90deg);
+}
+.songSheet .padding8{
+    padding-left:0.4rem;
+}
+.songSheet .Songs{
+    height: 2.6rem;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+.songSheet .textSongSheetName{
+    font-size: 0.65rem;
+    /*font-weight: bold;*/
+    opacity: 0.9;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+.songSheet .songNum{
+    font-size: 0.6rem;
+    color:#9b9c9e;
+    opacity: 1;
+    display: block;
+}
+.songSheet .text{
+    margin-left: 0.4rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.05rem solid #e9eaec
+}
+.songSheet .love{
+    background-color: black;
+    width: 2.2rem;
+    height: 2.2rem;
+    position: relative;
+}
+.songSheet .loveImg{
+    position: absolute;
+    height: 110%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}

@@ -1,0 +1,35 @@
+.AudioHeader{
+    position:relative;
+    display:flex;
+    align-items:center;
+    top:0;
+    height:2.15rem;
+    padding: 0 0.75rem 0.45rem 0.75rem;
+}
+.AudioHeader .img{
+    width:1rem;
+    height:1rem;
+}
+.AudioHeader .text{
+    display:inline-block;
+    position:relative;
+    margin-left:0.8rem;
+    display:inline-block;
+    font-size:0;
+}
+.AudioHeader .textMusicName{
+    font-size:0.55rem;
+    font-weight: bold;
+    color: rgba(242,248,249,0.8);
+    width:12rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:inline-block;
+}
+.AudioHeader .textSinger{
+    font-size:0.45rem;
+    margin-top:4px;
+    color:rgba(242,248,249,0.8);
+    display:inline-block;
+}

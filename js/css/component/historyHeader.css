@@ -1,0 +1,35 @@
+.historyHeader{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: #cd3d3d;
+    height: 2.3rem;
+    width: 100%;
+    z-index: 1;
+    /*padding: 0 0.75rem;*/
+}
+.historyHeader .leftArrow{
+    background: url("../../img/a_w_arrow.png") no-repeat;
+    background-size: 1rem;
+    position: relative;
+}
+.historyHeader .iconSize{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.8rem;
+}
+.historyHeader .con{
+    margin-left: 0.8rem;
+    color: white;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.historyHeader .rightLabel{
+    font-size: 0.65rem;
+    padding: 0.4rem;
+}
+

@@ -1,0 +1,45 @@
+.recommendList .musicRecommend{
+    border-top: #ebecee;
+    padding: 0.25rem 0.25rem;
+    background-color: #f3f4f6;
+}
+.recommendList .title{
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #454648;
+    margin-bottom:0.25rem;
+    display: flex;
+}
+.recommendList .recImg{
+     display: inline-block;
+     width: 31.13%;
+     margin: 0 1.1% 0.7rem 1.1%;
+
+ }
+.recommendList .recImgCon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommendList .recText{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 0.6rem;
+}
+.recommendList .recommendList .recImgCon{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommendList .iconCom{
+    background: url("../../img/command.png") no-repeat;
+    display: inline-block;
+    -webkit-background-size: 0.8rem;
+    background-size: 0.8rem;
+    width: 1rem;
+    height: 0.8rem;
+    margin-left: 2px;
+}

@@ -1,0 +1,32 @@
+.ShowLyrics{
+    height: 18rem;
+    overflow: hidden;
+    position: relative;
+}
+.ShowLyrics .lyricsCon{
+    position: relative;
+    font-size: 0.55rem;
+    color:rgba(255, 255, 255, 0.6);
+    text-align: center;
+    transition: 1s;
+}
+.ShowLyrics .active{
+    color: white;
+}
+.ShowLyrics .aLyric{
+    height: 1.5rem;
+}
+.ShowLyrics .isFetching{
+    color: white;
+    font-size: 0.7rem;
+}
+.vol{
+    width: 0.6rem;
+    margin-left: 0.5rem;
+    z-index: 1;
+}
+.volCon{
+    display: flex;
+    align-items: center;
+    padding: 0 0.75rem;
+}

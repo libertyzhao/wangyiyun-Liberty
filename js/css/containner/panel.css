@@ -1,0 +1,80 @@
+.panel .PNone{
+    opacity: 0 !important;
+    visibility: hidden;
+}
+.panel .bg{
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    transition:0.5s;
+    background-color:#000000;
+    opacity: 0.4;
+    position: fixed;
+}
+.panel .dialog{
+    position: fixed;
+    display: inline-block;
+    border-radius: 0.2rem;
+    width: 12rem;
+    height: 4.2rem;
+    background-color: #f2f4f5;
+    z-index: 11;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    font-size: 0.65rem;
+}
+.panel .dialog_title{
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+}
+.panel .dialog_choose{
+    float: right;
+    color: #3774B0;
+    padding-bottom: 0.7rem;
+}
+.panel .dialog_choose_item{
+    margin-right: 0.7rem;
+    padding: 0.4rem;
+}
+.panel .dialog_bg{
+    z-index: 10;
+}
+.panel .floatInfo{
+    position: fixed;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: gray;
+    bottom: 3rem;
+    border-radius: 1rem;
+    z-index: 10;
+    opacity: 0.8;
+    color: white;
+    width: 4rem;
+    font-size: 0.6rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* visibility: hidden; */
+    transition: 1s;
+}
+.panel .animattion{
+    animation: fadeout 0.8s ;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeout {
+    0%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}

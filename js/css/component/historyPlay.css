@@ -1,0 +1,32 @@
+.historyPlay .liNav{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    height: 2.2rem;
+    position: relative;
+}
+.historyPlay .text{
+    -webkit-flex: 1;
+    flex: 1;
+    font-size: 0.65rem;
+    /*font-weight: bold;*/
+    opacity: 0.9;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.historyPlay .number{
+    font-size: 0.6rem;
+    color:#9b9c9e;
+    opacity: 1;
+}
+.historyPlay .liHistory{
+    width: 1.9rem;
+}
+.historyPlay .liSound{
+    width: 0.75rem;
+    margin-right: 0.5rem;
+}
+.historyPlay .liNav+.liNav .text{
+    border-top:0.05rem solid #e9eaec
+}

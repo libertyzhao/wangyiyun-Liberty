@@ -1,0 +1,31 @@
+
+.iconCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s1{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+}
+.s2{
+    width: 2.9rem;
+    height: 2.9rem;
+}
+.s3{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.audioFooterMain{
+    position: absolute;
+    bottom:0.25rem;
+    left: 50%;
+    margin-left: -7.22rem
+}
+.left5{
+    left: -0.5rem;
+}
+.right5{
+    right: -0.5rem;
+}

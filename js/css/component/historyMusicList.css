@@ -1,0 +1,70 @@
+.historyMusicList{
+    border-top: 1px solid transparent;
+    margin-bottom: 0.5rem;
+}
+.historyMusicList .best{
+    display: inline-block;
+    font-size: 0.6rem;
+    padding-top:0.6rem;
+    color: #666666;
+}
+.historyMusicList .singerMusicTitle{
+    position: relative;
+    font-size: 0px;
+    padding: 0.4rem 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e9e9;
+    padding-left: 0.65rem;
+    margin-top: 2.3rem;
+}
+.historyMusicList .musicListUl{
+    margin-left: 0.65rem;
+}
+.historyMusicList .singerMusicCon{
+    position: relative;
+    font-size: 0px;
+    padding: 0.4rem 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e9e9;
+}
+.historyMusicList .musicName{
+    font-size: 0.65rem;
+    font-weight: bold;
+    color:#313234;
+    width: 12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    opacity: 0.88;
+}
+.historyMusicList .musicAuthor{
+    font-size: 0.55rem;
+    margin-top: 4px;
+    color: #999999;
+    display: inline-block;
+    width: 12rem;
+}
+/*.historyMusicList .singerMusicCon+.singerMusicCon{*/
+    /*border-top: 1px solid #e7e9e9;*/
+/*}*/
+.historyMusicList .historyPlay{
+    width: 0.9rem;
+    margin-right: 0.65rem;
+}
+.historyMusicList .number{
+    font-size: 0.6rem;
+    color:#9b9c9e;
+    opacity: 1;
+}
+.historyMusicList .textOverflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.historyMusicList .chooseImg{
+    height: 0.7rem;
+    padding-right: 0.6rem;
+}
