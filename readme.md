@@ -1,4 +1,4 @@
-![图片](https://github.com/376968795/wangyiyun-Liberty/blob/master/model/1.png)；
+![图片](https://github.com/376968795/wangyiyun-Liberty/blob/master/model/1.png){:height="50%" width="50%"}；
 
 ![图片](https://github.com/376968795/wangyiyun-Liberty/blob/master/model/2.png)；
 
