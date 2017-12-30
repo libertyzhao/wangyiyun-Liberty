@@ -1,4 +1,5 @@
-![图片](https://github.com/376968795/wangyiyun-Liberty/blob/master/model/1.png =200)；
+![图片]()；
+<img width="200"  src="https://github.com/376968795/wangyiyun-Liberty/blob/master/model/1.png"/>
 
 ![图片](https://github.com/376968795/wangyiyun-Liberty/blob/master/model/2.png)；
 
